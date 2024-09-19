@@ -20,5 +20,19 @@ public class UsaStringhe {
 		ciao = "Pippo";// ciao.toUpperCase();
 		
 		System.out.println("? " + ciao);
+		
+		
+		
+		double pi = 3.148023;
+		String piFormatted = String.format("%.2f", pi);
+		
+		System.out.println(piFormatted);
+		
+		
+		String pippo = "Pippo";
+		System.out.println(String.format("I nomi sono %s, %s", pippo, "Pluto"));
+
+		System.out.println(String.format("%s ha mangiato %d mele", pippo, 3));
+		System.out.println(pippo + " ha mangiato " + 3 + " mele");
 	}
 }
